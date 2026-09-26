@@ -1,0 +1,8 @@
+package ru.arkhipov.MyRestService.exception;
+
+public class ValidationFailedException extends RuntimeException {
+
+    public ValidationFailedException(String message) {
+        super(message);
+    }
+}
